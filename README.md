@@ -2,7 +2,7 @@
 
 ## :gear:Instalação e Configuração do Ambiente, Passo a Passo.:gear:
 
-### 1- Baixe o Node(14.17.1) atráves deste link: https://nodejs.org/dist/v14.17.1/node-v14.17.1-x64.msi
+### 1- Baixe o Node(14.17.1) atráves deste link: https://nodejs.org/dist/v14.17.1/node-v14.17.1-x64.msi e o Java(11.0.13) atráves deste link: https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html. Faça as instalações padrões
 
 ### 2- Instale o NPM e outras ferramentas complementares atráves da propria instalação do Node
 
@@ -46,7 +46,19 @@
 
 <img alt="verificação" src="https://res.cloudinary.com/dds7bsyhr/image/upload/v1639617135/verificar_s7dovs.png">
 
-### Adicione a variável JAVA_HOME da mesma maneira que adicionou a ANDROID_HOME, porem com a "Variable Value" sendo "C:\Program Files\Android\Android Studio\jre", path padrão.
+### 12- Adicione a variável JAVA_HOME da mesma maneira que adicionou a ANDROID_HOME, porem agora em "Variáveis do Sistema' em vez de "Variáveis de Usúario" com a "Variable Value" sendo "C:\Program Files\Android\Android Studio\jre", path padrão.
+
+<img alt="JAVA_HOME" src="https://res.cloudinary.com/dds7bsyhr/image/upload/v1639654607/JAVA_HOME_qyidk9.png">
+
+### 13- Procure pela variável "Path", selecione ela e clique em "Editar...", clique em "Novo" e coloque o seguinte path caso tenha feito a instalação do java de maneira padrão: "C:\Program Files\Common Files\Oracle\Java\javapath". 
+
+<img alt="Path" src="https://res.cloudinary.com/dds7bsyhr/image/upload/v1639655065/JAVA_HOME_vgshyn.png">
+
+#### Clique em "Mover para Cima" até que a variável esteja no topo, assim como na imagem acima. Depois clique em todos os "OK".
+
+
+
+
 
 
 
