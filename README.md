@@ -46,6 +46,8 @@
 
 <img alt="verificação" src="https://res.cloudinary.com/dds7bsyhr/image/upload/v1639617135/verificar_s7dovs.png">
 
+### Adicione a variável JAVA_HOME da mesma maneira que adicionou a ANDROID_HOME, porem com a "Variable Value" sendo "C:\Program Files\Android\Android Studio\jre", path padrão.
+
 
 
 ### :computer: Iniciando o App:
