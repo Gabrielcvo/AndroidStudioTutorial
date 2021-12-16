@@ -42,9 +42,39 @@
 
 <img alt="local de instalação" src="https://res.cloudinary.com/dds7bsyhr/image/upload/v1639616675/local_difeqq.png">
 
+### 11- Verifique se o ANDROID_HOME foi inserido corretamente. Abra o Power shell e digite "Get-ChildItem -Path Env:\" e veja se o ANDROID_HOME foi listado
+
+<img alt="verificação" src="https://res.cloudinary.com/dds7bsyhr/image/upload/v1639617135/verificar_s7dovs.png">
 
 
 
+### :computer: Iniciando o App:
 
+```bash
+
+# Clone esse Repositório
+$ git clone https://gitlab.com/omnicare/mobile/omnicare-mobile.git
+
+# Entre na pasta do projeto pelo Terminal
+$ cd omnicare-mobile
+
+
+# Entre na Branch develop pelo git
+$ git checkout develop
+
+# Instale as dependências
+$ npm install
+ ou
+$ yarn install
+
+# Ative o modo de desenvolvedor do seu telefone, ative a depuração USB e conecte o telefone ao computador
+
+# Execute a aplicação com esse comando
+$ npm android
+ ou
+$ yarn android
+
+
+```
 
 
