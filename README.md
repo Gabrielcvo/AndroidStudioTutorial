@@ -60,35 +60,3 @@
 
 
 
-
-
-### :computer: Iniciando o App:
-
-```bash
-
-# Clone esse Repositório
-$ git clone https://gitlab.com/omnicare/mobile/omnicare-mobile.git
-
-# Entre na pasta do projeto pelo Terminal
-$ cd omnicare-mobile
-
-
-# Entre na Branch develop pelo git
-$ git checkout develop
-
-# Instale as dependências
-$ npm install
- ou
-$ yarn install
-
-# Ative o modo de desenvolvedor do seu telefone, ative a depuração USB e conecte o telefone ao computador
-
-# Execute a aplicação com esse comando
-$ npm android
- ou
-$ yarn android
-
-
-```
-
-
